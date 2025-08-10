@@ -1,0 +1,201 @@
+*{
+    font-family: "Poppins",sans-serif;
+}
+html,body{
+    overflow-x:hidden ;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://shaheer-naveed.github.io/Interior-Design/images/kien-dinhkien.jpg");
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+nav{
+    background-color: #ffffff1e;
+    backdrop-filter: blur(40px);
+    z-index: 9999;
+}
+.navbar-brand{
+   display: none;
+}
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: center;
+    flex: 1;
+}
+.nav-item::before{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #ff4444;
+}
+.nav-link:hover{
+    color: #ff4444;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+}
+.banner-text h1{
+    font-size: 6vw;
+}
+.banner-text p{
+    font-size: 22px;
+}
+#page1 .card{
+   background-color:#FFF3F3;
+   text-align: center;
+   height: 220;
+}
+#container{
+    width: 100%;
+    height: 50vh;
+    background: url('https://images.steelcase.com/image/upload/v1435572511/www.steelcase.com/asia-en/14-0001298.jpg');
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    position: relative;   
+    border-radius: 25px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+ .icons{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 40px;
+
+} 
+ .card{
+    background-color: #FFF3F3;
+ }
+.header2{
+    height: 60vh;
+}
+.two{
+    border: none;
+}
+#md1{
+    background-color: #FFF3F3;
+}
+#md2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.con-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+font-size: 30px;
+color: #ff4444;
+}
+.icons a .i-data{
+    text-decoration: none;
+}
+.i-data{
+    font-size: 16px;
+    text-decoration: none;
+}
+.btn{
+    border-radius: none;
+    background:transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding:10px 20px;
+    width: fit-content;
+    transition: 1s;
+}
+.btn:hover{
+    background: #ff4444;
+    color: #fff;
+    border: none;
+}
+#icons{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.btn1{
+    color: #ff4444;
+    border: 2px solid #ff4444;
+    padding: 10px 15px;
+    width: fit-content;
+transition:.5s ;
+background: transparent;
+}
+.btn1:hover{
+    background: #ff4444;
+    color: #fff;
+
+}
+@media (max-width:1200px){
+
+
+}
+@media (max-width:990px){
+    .navbar-brand{
+        display: block;
+        font-size: 3vw;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+@media (max-width:768px) {
+
+    .banner-text h1{
+        font-size: 7.3vw;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .banner-text p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .navbar-toggler{
+        color: #fff;
+    }
+    .card{
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    .card-title{
+        font-size: 5vw;
+        line-height: 1.5;
+    }
+    .con-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#blog h3{
+    font-size: 18px;
+}
+#blog p{
+    font-size: 12px;
+}
+    footer p{
+        font-size: 14px;
+    }
+    .about-img{
+     width: 100%; 
+    }
+}
